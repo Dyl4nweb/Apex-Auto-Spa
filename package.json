@@ -3,7 +3,9 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
+        "build": "node build.js",
+        "build:vite": "vite build",
+        "export": "php export-static.php",
         "dev": "vite"
     },
     "devDependencies": {
